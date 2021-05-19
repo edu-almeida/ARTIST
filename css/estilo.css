@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Poppins&display=swap');
+
+/* GERAL */
+
+body {
+    font-family: 'Poppins', serif;
+    text-align: justify;
+    font-size: 100%;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#principal, #second, #contato {
+    width: 1200px;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* CABEÇALHO */
+
+header {
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    background-color: white;
+    position: relative;
+    max-width: 100%;
+    margin: 0 auto;
+    align-items: center;
+}
+
+#menu {
+    display: flex;
+    list-style-type: none;
+    align-content: center;
+}
+
+header nav {
+    display: flex;
+    flex: 1 0 0%;
+    justify-content: flex-end;
+}
+
+#logo {
+    display: flex;
+    max-width: 50px;
+}
+
+.link-menu {
+    margin: 8px;
+    color: white;
+    padding: 8px 8px;
+    border: 0px solid;
+    background: #3f4046;
+    /* cantos arredondados */
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+}
+
+
+/*ESTRUTURL*/
+
+main {
+    background: #3f4046;;
+}
+
+.link-menu:hover {
+    color: #101010;
+    background-color: white;
+    border-bottom: 1px solid #101010;
+}
+
+.f {
+    background: #6d0019;
+}
+
+.l {
+    background: #002957;
+}
+
+.m {
+    background-color: #440052;
+}
+
+#principal {
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#principal img, #capa {
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+#sec_ctd p {
+    color: white;
+    width: auto;
+    font-size: 18px;
+}
+
+#sec_ctd h1 {
+    font-family: "Agency FB", serif;
+    color: white;
+    justify-content: flex-end;
+    display: flex;
+    font-size: 35px;
+}
+
+#second {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    padding: 50px;
+    align-items: center
+}
+
+.capa {
+    position: relative;
+    top: 0;
+    height: 400px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.capa:hover {
+    top: -8px;
+    box-shadow: 0 8px 8px #999;
+    transition: all .2s ease-in-out
+}
+
+
+#descricao {
+    width: 30%;
+    border: 1px solid #94959b;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    float: left;
+    flex-direction: column;
+    margin-left: -60px;
+    margin-right: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+#descricao iframe {
+    width: 100%;
+}
+
+#acesso {
+    width: 250px;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    -webkit-border-radius: 10px; /*arredonda a sombra*/
+    box-shadow: 0 0 10px gray;
+}
+
+#acesso a {
+    color: white;
+    font-family: Bebas, serif;
+    font-size: 20px;
+}
+
+#second .f, #second .l {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#second .m {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#second .m img {
+    width: 50px;
+    margin: 5px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* RODAPÉ */
+
+footer {
+    display: flex;
+    background: #292a30;
+    padding: 15px;
+    bottom: 0;
+}
+
+#contato {
+    display: flex;
+    max-width: 100%;
+    margin: 0px auto;
+    align-items: center;
+}
+
+#email {
+    justify-content: space-between;
+    float: left;
+}
+
+#email a {
+    color: silver;
+}
+
+#social {
+    float: right;
+    margin-left: auto;
+}
+
+#social img {
+    height: 30px;
+    margin: 5px;
+}
